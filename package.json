@@ -1,0 +1,35 @@
+{
+  "name": "grapesjs-sample",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/**/*.{ts,tsx}"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "prettier": "3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@grapesjs/react": "^1.0.0",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "grapesjs": "^0.21.10",
+    "modern-css-reset": "^1.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
